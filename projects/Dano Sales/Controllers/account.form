@@ -41,13 +41,15 @@
             <DetailItem SchemaName="defaultpricelevelid" Style="Table">
               <GridPosition>0;6;2;1</GridPosition>
             </DetailItem>
+            <DetailItem SchemaName="Create new order" button="true" buttonLabel="Create new order" buttonClickText="Create new order">
+              <IsConstant>true</IsConstant>
+              <GridPosition>0;7;1;1</GridPosition>
+            </DetailItem>
+            <DetailItem SchemaName="Create new appointment" button="true" buttonLabel="Create new appointment" buttonClickText="Create new appointment">
+              <IsConstant>true</IsConstant>
+              <GridPosition>1;7;1;1</GridPosition>
+            </DetailItem>
           </Items>
-        </DetailItem>
-        <DetailItem SchemaName="Create new order" button="true" buttonLabel="Create new order" buttonClickText="Create new order">
-          <IsConstant>true</IsConstant>
-        </DetailItem>
-        <DetailItem SchemaName="Create new appointment" button="true" buttonLabel="Create new appointment" buttonClickText="Create new appointment">
-          <IsConstant>true</IsConstant>
         </DetailItem>
       </SerializedChildren>
     </FormTab>
